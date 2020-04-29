@@ -1,5 +1,16 @@
 package transport;
 
+/*
+  
+  Classes and Interfaces: a class can inherit/implement multiple interfaces.
+
+  The Horse inheritence path: Starts as an Object,
+  and then becomes both a Animal and Vehicle, then finally becomes a Hosre
+
+  Object -> Animal -> Hosrse
+            Vehicle
+  
+*/
 public class Horse implements Vehicle, Animal {
 
   // fields
@@ -49,7 +60,7 @@ public class Horse implements Vehicle, Animal {
 
   @Override
   public String getPath() {
-    return "Grass"
+    return "Grass";
   };
 
   @Override

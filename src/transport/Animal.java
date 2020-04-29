@@ -13,6 +13,6 @@ public interface Animal {
 
   void move();
   void eat(int i);
-  void speak();
+  String speak();
 
 }
