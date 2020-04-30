@@ -36,6 +36,10 @@ public abstract class AbstractVehicle {
     fuel--;
   }
 
+  public void move(int steps) {
+    fuel = fuel - steps;
+  }
+
   public int getFuelLevel() {
     return fuel;
   }
